@@ -13,7 +13,7 @@ namespace WebApiRentas.Helpers
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string Conexion = @"Server = localhost;
+            string Conexion = @"Server = dockersqlserver.southcentralus.azurecontainer.io;
                                     Database = dbRentaPeliculas; 
                                     User = sa; 
                                     Password =luis1598*;";
